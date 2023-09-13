@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=League+Spartan:wght@500;700&family=Poppins:ital,wght@0,400;0,500;0,800;1,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgb(68, 27, 107);
+    color: #fff;
+}
+
+.container{
+    margin: 20%;
+    width: 90%;
+    max-width: 700px;
+}
+
+.container h1{
+    font-weight: 500;
+    font-size: 45pxs;
+}
+
+.container h1 span {
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+}
+
+.generate-pass{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+}
+
+.generate-pass img{
+    width: 20px;
+    cursor: pointer;
+    /* padding-right: 20px; */
+}
+
+.generate-pass input{
+    outline: none;
+    border: none;
+    width: 70%;
+    font-size: 24px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+.container button {
+    outline:none;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 2px;
+    border: 1px solid rgb(20, 46, 20);
+    background: linear-gradient(180deg, #10cf76, #2c964fc7);
+    cursor: pointer;
+    /* font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    padding: 16px 26px; */
+}
+
+.container button img{
+    width: 12px;
+    margin-right: 5px;
+}
+
